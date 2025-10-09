@@ -25,7 +25,7 @@ export const questions: Question[] = [
   },
   {
     id: 2,
-    prompt: "What can a student do to better prepare himself/himself before the CPSC 240 midterm?",
+    prompt: "What can a student do to better prepare himself/herself before the CPSC 240 midterm?",
     answers: [
       { text: "Study the GDB lecture notes", points: 40, revealed: false },
       { text: "Eat breakfast", points: 30, revealed: false },
