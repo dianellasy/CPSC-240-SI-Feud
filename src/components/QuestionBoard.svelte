@@ -51,7 +51,7 @@
 
 <div class="p-4 bg-blue-900 text-white mb-6 rounded flex flex-col items-center">
   <h2 class="text-xl mb-2 text-center">QUESTION {question.id}</h2>
-  <p class="mb-4 text-center">{question.prompt}</p>
+  <p class="mb-4 text-center" style="color: #E75480">{question.prompt}</p>
   <div class="flex flex-wrap justify-center w-full mb-4">
     {#each question.answers as ans, i}
       <AnswerCard answer={ans} questionId={question.id} forceReveal={forceReveal} number={i + 1} />

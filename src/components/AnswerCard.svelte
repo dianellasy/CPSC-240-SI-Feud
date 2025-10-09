@@ -74,14 +74,14 @@
 }
 
 .flip-card-front {
-  background: #07125B;
+  background: #E75480;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .flip-card-back {
-  background: #223388;
+  background: #E75480;
   transform: rotateY(180deg);
   display: flex;
   flex-direction: column;
@@ -92,7 +92,7 @@
 .ff-number {
   font-size: 2.5rem;    /* bumped up from 1.5rem */
   font-weight: bold;
-  color: #FFD700;
+  color: white;
   text-shadow: 2px 2px 0 #000, 0 0 8px #FFD700;
   margin-bottom: 0.2rem;
 }

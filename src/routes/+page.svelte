@@ -34,11 +34,11 @@
 </script>
 
 <svelte:head>
-  <title>CPSC 240 SI Feud</title>
+  <title>Holliday Feud</title>
 </svelte:head>
 
 <main class="centered-main max-w-3xl mx-auto">
-  <h1 class="main-title text-4xl mb-6">CPSC 240 SI Feud</h1>
+  <h1 class="main-title text-4xl mb-6">🎀 HOLLIDAY FEUD 🎀</h1>
 
   <div class="centered-scoreboard">
     <Scoreboard />
@@ -65,13 +65,13 @@
   </div>
 
   <footer class="page-footer">
-    Made with 💛 by Dianella Sy, CPSC 240 SI Leader
+    Made with 🩷 by Dianella Sy, CPSC 240 SI Leader
   </footer>
 </main>
 
 <style>
   :global(body) {
-    background: #07125B;
+    background: #FFB6C1;
     color: #fff;
     margin: 0;
     min-height: 100vh;
@@ -94,7 +94,7 @@
   }
 
   .main-title {
-    color: #FFD700;
+    color: #E75480;
   }
 
   .centered-scoreboard {
@@ -134,24 +134,27 @@
   select,
   input,
   textarea {
-    background: #07125B;
+    background: #E75480;
     border: 1px solid #fff;
   }
 
   .next-question-btn {
-    color: #000 !important;
-    background-color: #90ee90 !important;
+    color: white !important;
+    background-color: #E75480 !important;
     font-weight: bold;
     border: none;
     transition: background 0.2s, color 0.2s;
   }
 
-  .next-question-btn:hover:not(:disabled),
-  :global(button.bg-gray-600:hover),
-  :global(button.bg-yellow-500:hover) {
-    background-color: #FFD700 !important;
-    color: #000 !important;
-  }
+    .next-question-btn:hover:not(:disabled) {
+      background-color: #E75480 !important;
+      color: #fff !important;
+    }
+    :global(button.bg-gray-600:hover),
+    :global(button.bg-yellow-500:hover) {
+      background-color: #E75480 !important;
+      color: #fff !important;
+    }
 
   .next-question-btn:disabled {
     color: #888 !important;

@@ -17,11 +17,11 @@
     </button>
   {/if}
   {#if !($stealOpen)}
-    <button on:click={addStrike} class="mt-2 px-4 py-2 bg-gray-600 text-white rounded mr-2">
+  <button on:click={addStrike} class="mt-2 px-4 py-2 bg-white text-black rounded mr-2">
       Add Strike
     </button>
   {/if}
-  <button on:click={showAnswers} class="mt-2 px-4 py-2 bg-yellow-500 text-black rounded">
+  <button on:click={showAnswers} class="mt-2 px-4 py-2 bg-white text-black rounded">
     {#if question.forceReveal}
       Hide Answers
     {:else}
@@ -29,3 +29,9 @@
     {/if}
   </button>
 </div>
+<style>
+  button:hover {
+    background-color: #E75480 !important;
+    color: white !important;
+  }
+</style>
