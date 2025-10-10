@@ -38,7 +38,7 @@
 <style>
 .flip-card {
   width: 16rem;        /* was 8rem */
-  height: 8rem;        /* was 4rem */
+  height: 10rem;        /* was 4rem */
   perspective: 1000px;
   display: inline-block;
   margin: 0.5rem;
